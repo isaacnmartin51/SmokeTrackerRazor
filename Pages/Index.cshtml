@@ -4,19 +4,10 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="card text-bg-primary mb-3" style="max-width: 18rem;">
-    <div class="card-body">
-        <form method="post">
-            <fieldset>
-                <legend class="card-title">Add Smoke</legend>
-                <div class="mb-3">
-                    <input asp-for="CreateLog.DateSmoked" type="datetime-local" class="form-control"></input>
-                </div>
+<form method="post">
+        <legend class="card-title">Add Smoke</legend>
                 <input type="submit" value="Submit" class="btn btn-primary"></input>
-            </fieldset>
         </form>
-    </div>
-</div>
 
 <table class="table table-striped table-bordered">
     <thead>
