@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'smoketracker'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_844F7C491D6D4520B67D197BA634BF36 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C897BACF3CBF4E0E8C545C67769F50AA }}
           package: .
